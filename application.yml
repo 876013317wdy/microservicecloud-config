@@ -12,8 +12,8 @@ spring:
   profiles: test   #测试环境
   application:
     name: microservicecloud-config-atguigu-test
-    ---
+---
 spring:
-  profiles: test   #生产环境
+  profiles: prd   #生产环境
   application:
     name: microservicecloud-config-atguigu-prd
